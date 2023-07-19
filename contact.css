@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: #3B3B3B;
+}
+.header {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: #1c1c1c;
+}
+.header img{
+	width: 90px;
+	height: 50px;
+}
+.logo{
+	display: flex;
+    padding: 5px;
+}
+.logo a{
+	display: flex;
+	text-decoration: none;
+}
+.logo a h1:hover{
+    color: #FFE002;
+}
+.logo h1{
+	margin-left: 5px;
+	margin-top: 6px;
+	color:  #FFB606;
+	font-family: ui-sans-serif;
+}
+nav {
+	float: right;
+	margin-top: -42px;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	float: left;
+	margin-left: 20px;
+
+}
+nav ul li a {
+	color:  #FFB606;
+	text-decoration: none;
+  font-size: 20px;  
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #FFE002;
+}
+a h4:hover{
+    color: #FFE002;
+}
+
+
+.container-b{
+    display: flex;
+    height: 425px;
+    margin-top: 140px;
+}
+.left{
+    width: 50%;
+    margin-left: 70px;
+}
+.left h1{
+    font-size: 70px;
+    color: #FFB606;
+    text-decoration: underline 2.4px double;
+}
+.left h3{
+    color:  #FFB606;
+    font-size: 22px;
+}
+.left h4{
+    color: #B28228;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.left h5{
+    color: #FFE002;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.right{
+    width: 50%;
+    margin-left: 70px;
+}
+.right h3{
+    font-size: 30px;
+    margin-top: 6px;
+    color: #FFB606;
+    margin-bottom: 10px;
+    margin-top: 26px;
+}
+.right a{
+    display: flex;
+    margin-bottom: 6px;
+}
+.right a h3{
+    color: #B28228;
+    margin: 11px;
+}
+.right a h3:hover{
+    color: #FFE002;
+}
+.medsos img{
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+    margin-top: 10px;
+    margin-left: 18px
+}
+
+footer {
+	background-color: #1c1c1c;
+	color: #fff;
+	padding: 7px 0;
+}
