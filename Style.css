@@ -19,7 +19,7 @@ a:hover{
 	background-color: #1c1c1c;
 }
 .header img{
-	width: 90px;
+	width: 50px;
 	height: 50px;
 }
 .logo{
@@ -74,19 +74,30 @@ nav ul li a {
 	object-fit: cover;
 	/*animation: slide 10s forwards infinite; */
 }
+
+h1#rekom{
+	color: #FFB606;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
 .produk{
 	display: flex;
+	background-color: #1c1c1c;
+	padding: 20px 17px 20px 17px;
 }
 .item-prdk{
 	text-decoration: none;
 	display: block;
-	color: black;
 	width: 200px;
+	color: #FFB606;
+	margin: 0 30px 0 25px;
 }
+
 .item-prdk img{
-	width: 220px;
-	height: 220px;
+	width: 200px;
+	height: 200px;
 }
+
 
 footer {
 	background-color: #1c1c1c;
