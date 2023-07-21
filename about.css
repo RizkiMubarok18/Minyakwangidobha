@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: #3B3B3B;
+}
+.header {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: #1c1c1c;
+}
+.header img{
+	width: 50px;
+	height: 50px;
+}
+.logo{
+	display: flex;
+    padding: 5px;
+}
+.logo a{
+	display: flex;
+	text-decoration: none;
+}
+.logo a h1:hover{
+    color: #FFE002;
+}
+.logo h1{
+	margin-left: 5px;
+	margin-top: 6px;
+	color:  #FFB606;
+	font-family: ui-sans-serif;
+}
+nav {
+	float: right;
+	margin-top: -42px;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	float: left;
+	margin-left: 20px;
+
+}
+nav ul li a {
+	color:  #FFB606;
+	text-decoration: none;
+  font-size: 20px;  
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #FFE002;
+}
+a h4:hover{
+    color: #FFE002;
+}
+
+/* bagain atas selesai di sini */
+
+section{
+   display: flex;
+   margin-top: 15px;
+}
+.left{
+    width: 42%;
+    padding: 15px 0 20px 85px;
+}
+.image-prdk{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    grid-template-rows: 400px 60px;
+    column-gap: 25px;
+}
+.image-prdk .atas{
+    width: 400px;
+    height: 390px;
+    grid-column: 1/6;
+}
+.image-prdk .bawah {
+    width: 60px;
+    height: 60px;
+}
+.beli{
+    margin-top: 10px;
+}
+.beli #jumlah{
+    width: 65px;
+    height: 45px;
+    background-color: #1c1c1c;
+    color: #FFB606;
+    text-align: center;
+    font-size: 20px;
+}
+.beli #btn{
+    width: 322px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFB606;
+    background-color: #1c1c1c;
+    margin-right: 10px;
+}
+
+.right{
+    width: 50%;
+    padding: 20px;
+}
+.right h1{
+    font-size: 30px;
+    color: #FFB606;
+    margin-bottom: 10px;
+}
+.subinfo{
+    display: flex;
+}
+.subinfo h3{
+    color: #FFB606;
+    font-size: 20px;
+    width: 83%;
+}
+.right img{
+    width: 100px;
+    margin-bottom: 30px;
+}
+.right p{
+    color: white;
+    line-height: 22px;
+}
+#btn:hover{
+    opacity: 0.8;
+}
+
+footer {
+	background-color: #1c1c1c;
+	color: #fff;
+	padding: 7px 0;
+}
