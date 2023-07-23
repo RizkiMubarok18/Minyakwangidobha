@@ -33,6 +33,7 @@ a:hover{
 }
 .logo a h1:hover{
     color: #FFE002;
+	animation: underline 0.5s forwards;
 }
 .logo h1{
 	margin-left: 5px;
@@ -107,4 +108,13 @@ footer {
 	background-color: #1c1c1c;
 	color: #fff;
 	padding: 7px 0;
+}
+
+@keyframes underline {
+	0%{
+		border-bottom: 1px solid #B28228;
+	}
+	100%{
+		border-bottom: 2px solid #FFE002;
+	}
 }
