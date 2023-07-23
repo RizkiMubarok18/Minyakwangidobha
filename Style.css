@@ -11,9 +11,12 @@ a{
 }
 a:hover{
     color: #FFE002;
+	animation: underline 0.5s forwards;
 }
 a h1#toko:hover{
     color: #FFE002;
+	font-size: 30px;
+	transform: translateZ(15px);
 }
 .header {
 	max-width: 1400px;
@@ -176,6 +179,8 @@ a h1#toko{
 	color: #FFB606;
 	text-align: center;
 	margin: 20px 0 20px 0;
+	transition: transform 1s;
+	perspective: 10px;
 }
 
 footer {
@@ -203,5 +208,14 @@ footer {
 	}
 	100%{
 		transform: translateX(calc(-1280px * 6));
+	}
+}
+
+@keyframes underline {
+	0%{
+		border-bottom: 1px solid #B28228;
+	}
+	100%{
+		border-bottom: 2px solid #FFE002;
 	}
 }
